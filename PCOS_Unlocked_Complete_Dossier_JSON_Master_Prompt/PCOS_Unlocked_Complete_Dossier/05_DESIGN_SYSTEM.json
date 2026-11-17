@@ -1,0 +1,41 @@
+{
+  "palette": {
+    "plum": "#39243F",
+    "lilac": "#EAE3F0",
+    "coral": "#E98978",
+    "sage": "#A9BBA5",
+    "cream": "#FAF7F2",
+    "ink": "#242126",
+    "white": "#FFFFFF"
+  },
+  "style_keywords": [
+    "editorial",
+    "illustration-led",
+    "clear",
+    "calm",
+    "inclusive",
+    "scientific but approachable"
+  ],
+  "avoid": [
+    "childish cartoon style",
+    "pink-only gender coding",
+    "clutter",
+    "generic hospital stock photos",
+    "unverified medical imagery"
+  ],
+  "components": [
+    "header",
+    "footer",
+    "topic card",
+    "pathway card",
+    "breadcrumb",
+    "accordion",
+    "tabs",
+    "diagram hotspot",
+    "myth/fact card",
+    "quiz",
+    "source list",
+    "disclaimer",
+    "search"
+  ]
+}

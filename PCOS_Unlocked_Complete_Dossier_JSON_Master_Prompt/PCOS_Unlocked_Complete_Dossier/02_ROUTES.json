@@ -1,0 +1,125 @@
+{
+  "brand": "PCOS Unlocked",
+  "routes": [
+    [
+      "/",
+      "Home"
+    ],
+    [
+      "/start",
+      "Choose your route"
+    ],
+    [
+      "/know-your-body",
+      "Know Your Body"
+    ],
+    [
+      "/know-your-body/anatomy",
+      "Reproductive anatomy"
+    ],
+    [
+      "/know-your-body/menstrual-cycle",
+      "Menstrual cycle"
+    ],
+    [
+      "/know-your-body/hormones",
+      "Hormones"
+    ],
+    [
+      "/know-your-body/metabolism",
+      "Insulin and metabolism"
+    ],
+    [
+      "/pcos",
+      "Understand PCOS"
+    ],
+    [
+      "/pcos/features",
+      "Features and experiences"
+    ],
+    [
+      "/pcos/diagnosis",
+      "Diagnosis"
+    ],
+    [
+      "/pcos/health",
+      "Health associations"
+    ],
+    [
+      "/pcos/management",
+      "Management"
+    ],
+    [
+      "/pathways/women",
+      "Female learning path"
+    ],
+    [
+      "/pathways/women/experiences",
+      "Experiences"
+    ],
+    [
+      "/pathways/women/wellbeing",
+      "Wellbeing"
+    ],
+    [
+      "/pathways/allies",
+      "Male ally path"
+    ],
+    [
+      "/pathways/allies/support",
+      "Supporting someone"
+    ],
+    [
+      "/explore",
+      "Learn and Explore"
+    ],
+    [
+      "/explore/myths",
+      "Myths and facts"
+    ],
+    [
+      "/explore/quiz",
+      "Knowledge check"
+    ],
+    [
+      "/explore/faqs",
+      "FAQs"
+    ],
+    [
+      "/support",
+      "Find Support"
+    ],
+    [
+      "/support/when-to-seek-help",
+      "When to seek help"
+    ],
+    [
+      "/support/appointment",
+      "Appointment preparation"
+    ],
+    [
+      "/support/resources",
+      "Reliable resources"
+    ],
+    [
+      "/about",
+      "About"
+    ],
+    [
+      "/about/sources",
+      "Sources"
+    ],
+    [
+      "/about/accessibility",
+      "Accessibility"
+    ],
+    [
+      "/about/privacy",
+      "Privacy"
+    ],
+    [
+      "*",
+      "404"
+    ]
+  ]
+}

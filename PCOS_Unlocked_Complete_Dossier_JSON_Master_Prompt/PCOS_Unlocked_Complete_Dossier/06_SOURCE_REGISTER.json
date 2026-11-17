@@ -1,0 +1,41 @@
+{
+  "sources": [
+    {
+      "name": "WHO \u2014 Polycystic ovary syndrome fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/polycystic-ovary-syndrome",
+      "use": "Overview and public health context",
+      "verify_before_launch": true
+    },
+    {
+      "name": "2023 International Evidence-based Guideline for PCOS",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/10477934/",
+      "use": "Diagnosis, assessment and management",
+      "verify_before_launch": true
+    },
+    {
+      "name": "Indian multicentre prevalence study",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11581580/",
+      "use": "Indian context; interpret according to study sampling",
+      "verify_before_launch": true
+    },
+    {
+      "name": "Review/meta-analysis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9826643/",
+      "use": "Background evidence; inspect exact article claims",
+      "verify_before_launch": true
+    },
+    {
+      "name": "Menstrual cup systematic review",
+      "url": "https://doi.org/10.1016/S2468-2667(19)30111-2",
+      "use": "Menstrual product safety context, not PCOS causation",
+      "verify_before_launch": true
+    },
+    {
+      "name": "Know Your Body Lessons",
+      "url": "https://www.knowyourbodylessons.org/",
+      "use": "Design precedent only; do not copy assets or text",
+      "verify_before_launch": true
+    }
+  ],
+  "editorial_rule": "Check the exact source supports each claim. Record author, year, title, access date and review date before public launch."
+}

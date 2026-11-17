@@ -1,0 +1,69 @@
+{
+  "pcos_dataset.csv": {
+    "rows": 1000,
+    "columns": 6,
+    "fields": [
+      "Age",
+      "BMI",
+      "Menstrual_Irregularity",
+      "Testosterone_Level(ng/dL)",
+      "Antral_Follicle_Count",
+      "PCOS_Diagnosis"
+    ],
+    "limitations": [
+      "Provenance and sample recruitment not established by file alone",
+      "Not known to be representative of India",
+      "No gender or awareness variables",
+      "Do not use for diagnosis or causal claims"
+    ]
+  },
+  "Cleaned-Data.csv": {
+    "rows": 173,
+    "columns": 36,
+    "fields": [
+      "Age",
+      "Weight_kg",
+      "Height_ft",
+      "Marital_Status",
+      "PCOS",
+      "Family_History_PCOS",
+      "Menstrual_Irregularity",
+      "Hormonal_Imbalance",
+      "Hyperandrogenism",
+      "Hirsutism",
+      "Mental_Health",
+      "Conception_Difficulty",
+      "Insulin_Resistance",
+      "Diabetes",
+      "Childhood_Trauma",
+      "Cardiovascular_Disease",
+      "Diet_Bread_Cereals",
+      "Diet_Milk_Products",
+      "Diet_Fruits",
+      "Diet_Vegetables",
+      "Diet_Starchy_Vegetables",
+      "Diet_NonStarchy_Vegetables",
+      "Diet_Fats",
+      "Diet_Sweets",
+      "Diet_Fried_Food",
+      "Diet_Tea_Coffee",
+      "Diet_Multivitamin",
+      "Vegetarian",
+      "Exercise_Frequency",
+      "Exercise_Type",
+      "Exercise_Duration",
+      "Sleep_Hours",
+      "Stress_Level",
+      "Smoking",
+      "Exercise_Benefit",
+      "PCOS_Medication"
+    ],
+    "limitations": [
+      "No gender or direct awareness questions",
+      "Some self-report, compound or free-text fields",
+      "Do not treat all entries as clinically verified",
+      "Not a national prevalence sample",
+      "Do not infer causation"
+    ]
+  }
+}

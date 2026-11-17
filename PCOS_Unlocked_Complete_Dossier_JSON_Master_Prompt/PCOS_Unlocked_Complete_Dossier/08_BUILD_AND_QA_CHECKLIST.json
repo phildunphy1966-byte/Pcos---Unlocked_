@@ -1,0 +1,20 @@
+{
+  "routes_direct_load": true,
+  "browser_refresh": true,
+  "browser_back_forward": true,
+  "all_links_work": true,
+  "mobile_navigation": true,
+  "search_and_empty_state": true,
+  "pathway_switching": true,
+  "age_optional_and_resettable": true,
+  "diagram_text_alternatives": true,
+  "quiz_non_diagnostic": true,
+  "no_lorem_ipsum": true,
+  "no_sensitive_health_data": true,
+  "keyboard_access": true,
+  "visible_focus": true,
+  "reduced_motion": true,
+  "contrast_checked": true,
+  "medical_sources_linked": true,
+  "clinical_review_before_public_launch": true
+}

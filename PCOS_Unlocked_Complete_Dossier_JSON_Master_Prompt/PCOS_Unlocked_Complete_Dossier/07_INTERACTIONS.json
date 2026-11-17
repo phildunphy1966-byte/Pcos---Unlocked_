@@ -1,0 +1,56 @@
+{
+  "global_navigation": {
+    "persistent": true,
+    "items": [
+      "Know Your Body",
+      "Understand PCOS",
+      "Learn & Explore",
+      "Find Support",
+      "About",
+      "Search",
+      "Change learning route"
+    ],
+    "mobile_menu": true,
+    "breadcrumbs": true,
+    "browser_history": true
+  },
+  "age_selection": {
+    "optional": true,
+    "editable": true,
+    "bands": [
+      "Under 18",
+      "18\u201321",
+      "22\u201325",
+      "26\u201330",
+      "31\u201335",
+      "Above 35"
+    ],
+    "changes": "Language, examples and depth only"
+  },
+  "pathway_selection": {
+    "optional": true,
+    "switch_anytime": true,
+    "options": [
+      "Female learning path",
+      "Male ally path",
+      "Explore everything"
+    ]
+  },
+  "interactive_components": [
+    "SVG hotspots with text alternatives",
+    "menstrual cycle stepper",
+    "accordions",
+    "tabs",
+    "myth/fact reveal",
+    "educational quiz",
+    "search",
+    "print appointment guide"
+  ],
+  "privacy": {
+    "collect_health_data": false,
+    "diagnostic_tool": false,
+    "symptom_tracker": false,
+    "cycle_tracker": false,
+    "optional_preference_local_only": true
+  }
+}

@@ -1,0 +1,483 @@
+{
+  "project": {
+    "name": "PCOS Unlocked",
+    "tagline": "Understand your body. Question the myths. Find your way forward.",
+    "type": "Interactive educational website",
+    "context": "PCOS awareness in the Indian context",
+    "primary_audience": "Young people, especially women aged 18–25 in India",
+    "secondary_audiences": [
+      "People under 18",
+      "Adults aged 26–30",
+      "Adults aged 31–35",
+      "Adults above 35",
+      "Male allies, partners, friends, siblings, families and educators"
+    ],
+    "primary_goal": "Help visitors understand PCOS accurately, question misinformation and identify appropriate next steps through an accessible, engaging learning experience.",
+    "design_question": "How might a digital learning experience help young people in India understand PCOS accurately, question misinformation and find appropriate next steps without shame, fear or unnecessary complexity?"
+  },
+  "principles": [
+    "Non-judgemental and inclusive language",
+    "Age-appropriate explanations without restricting access to information",
+    "Illustrated and diagrammatic learning",
+    "Clear navigation and accessible interactions",
+    "Evidence-based health information",
+    "No diagnosis, symptom checker or medical chatbot",
+    "Do not collect sensitive health information"
+  ],
+  "audience_paths": {
+    "explore_pcos": {
+      "label": "Explore PCOS",
+      "description": "Understand the body, menstrual health, PCOS features, diagnosis, care and wellbeing."
+    },
+    "male_allies": {
+      "label": "Learn to Support",
+      "description": "An educational pathway for men and allies to understand PCOS and support someone respectfully. Do not present males as having PCOS."
+    },
+    "shared_learning": {
+      "label": "Learn Together",
+      "description": "Shared educational topics, myths, FAQs and reliable resources."
+    }
+  },
+  "age_groups": [
+    {
+      "id": "under-18",
+      "label": "Under 18"
+    },
+    {
+      "id": "18-21",
+      "label": "18–21"
+    },
+    {
+      "id": "22-25",
+      "label": "22–25"
+    },
+    {
+      "id": "26-30",
+      "label": "26–30"
+    },
+    {
+      "id": "31-35",
+      "label": "31–35"
+    },
+    {
+      "id": "above-35",
+      "label": "Above 35"
+    }
+  ],
+  "age_selection_rules": [
+    "Age selection is optional.",
+    "Users can skip or change their age group at any time.",
+    "Age adapts language depth and examples; it must not block access to content."
+  ],
+  "navigation": {
+    "header": [
+      {
+        "label": "Know Your Body",
+        "path": "/know-your-body"
+      },
+      {
+        "label": "Understand PCOS",
+        "path": "/pcos"
+      },
+      {
+        "label": "Learn & Explore",
+        "path": "/explore"
+      },
+      {
+        "label": "Find Support",
+        "path": "/support"
+      },
+      {
+        "label": "About",
+        "path": "/about"
+      }
+    ],
+    "routes": [
+      "/",
+      "/start",
+      "/know-your-body",
+      "/know-your-body/anatomy",
+      "/know-your-body/menstrual-cycle",
+      "/know-your-body/hormones",
+      "/know-your-body/metabolism",
+      "/pcos",
+      "/pcos/features",
+      "/pcos/diagnosis",
+      "/pcos/health",
+      "/pcos/management",
+      "/pathways/women",
+      "/pathways/women/experiences",
+      "/pathways/women/wellbeing",
+      "/pathways/allies",
+      "/pathways/allies/support",
+      "/explore",
+      "/explore/myths",
+      "/explore/quiz",
+      "/explore/faqs",
+      "/support",
+      "/support/when-to-seek-help",
+      "/support/appointment",
+      "/support/resources",
+      "/about",
+      "/about/sources",
+      "/about/accessibility",
+      "/about/privacy"
+    ],
+    "requirements": [
+      "Every route must render directly when opened or refreshed.",
+      "Browser back and forward navigation must work.",
+      "Provide breadcrumbs and related-topic links where useful.",
+      "No dead ends; provide clear next steps on every page.",
+      "Include responsive mobile navigation and a useful 404 page."
+    ]
+  },
+  "information_architecture": [
+    {
+      "section": "Home",
+      "path": "/",
+      "pages": [
+        "Landing page",
+        "Introduction",
+        "Start learning"
+      ]
+    },
+    {
+      "section": "Start",
+      "path": "/start",
+      "pages": [
+        "Optional age selection",
+        "Choose a learning pathway",
+        "Skip and continue"
+      ]
+    },
+    {
+      "section": "Know Your Body",
+      "path": "/know-your-body",
+      "pages": [
+        "Anatomy",
+        "Menstrual cycle",
+        "Hormones",
+        "Metabolism"
+      ]
+    },
+    {
+      "section": "Understand PCOS",
+      "path": "/pcos",
+      "pages": [
+        "What is PCOS?",
+        "Common features",
+        "Diagnosis",
+        "Health associations",
+        "Management and care"
+      ]
+    },
+    {
+      "section": "Explore PCOS",
+      "path": "/pathways/women",
+      "pages": [
+        "Experiences and symptoms",
+        "Reproductive health",
+        "Everyday wellbeing",
+        "Mental health and body image"
+      ]
+    },
+    {
+      "section": "Support Someone",
+      "path": "/pathways/allies",
+      "pages": [
+        "PCOS explained for allies",
+        "Myths and stigma",
+        "Supportive communication",
+        "How to help"
+      ]
+    },
+    {
+      "section": "Learn & Explore",
+      "path": "/explore",
+      "pages": [
+        "Myths and facts",
+        "Knowledge quiz",
+        "FAQs",
+        "Interactive explainers"
+      ]
+    },
+    {
+      "section": "Find Support",
+      "path": "/support",
+      "pages": [
+        "When to seek professional help",
+        "Appointment preparation",
+        "Reliable resources"
+      ]
+    },
+    {
+      "section": "About",
+      "path": "/about",
+      "pages": [
+        "About the project",
+        "Sources",
+        "Accessibility",
+        "Privacy"
+      ]
+    }
+  ],
+  "task_flows": [
+    {
+      "name": "First-time visitor",
+      "steps": [
+        "Home",
+        "Start",
+        "Optional age selection",
+        "Choose a pathway or skip",
+        "Understand PCOS",
+        "Explore a topic",
+        "Read sources or find support"
+      ]
+    },
+    {
+      "name": "Learning about symptoms",
+      "steps": [
+        "Home",
+        "Explore PCOS pathway",
+        "Experiences and features",
+        "Relevant educational topic",
+        "When to seek professional advice",
+        "Appointment preparation"
+      ]
+    },
+    {
+      "name": "Male ally",
+      "steps": [
+        "Home",
+        "Learn to Support",
+        "PCOS explained",
+        "Myths and impact",
+        "Supportive communication",
+        "How to help"
+      ]
+    },
+    {
+      "name": "Myth check",
+      "steps": [
+        "Home",
+        "Learn & Explore",
+        "Choose a statement",
+        "Answer true, false or not sure",
+        "Read explanation and source",
+        "Explore related topic"
+      ]
+    },
+    {
+      "name": "Appointment preparation",
+      "steps": [
+        "Any page",
+        "Find Support",
+        "Appointment preparation",
+        "Review suggested questions",
+        "Print or copy prompts"
+      ]
+    }
+  ],
+  "features": [
+    "Clear landing page and introductory explanation",
+    "Optional age and learning-path selection",
+    "Illustrated anatomy, menstrual cycle, hormone and metabolism explainers",
+    "PCOS overview, features, diagnosis, health associations and management education",
+    "Women’s learning pathway and male ally pathway",
+    "Myth-versus-fact interactions and non-diagnostic knowledge checks",
+    "FAQs, support information and appointment preparation",
+    "Reliable sources, project information, accessibility and privacy pages",
+    "Search, responsive navigation and useful related links"
+  ],
+  "content_safety": {
+    "disclaimer": "This website is for education only. It does not provide diagnosis or replace advice from a qualified healthcare professional.",
+    "clinical_rules": [
+      "PCOS is complex and can affect people differently; not everyone experiences every feature.",
+      "Ovarian appearance alone does not establish PCOS.",
+      "For adults, diagnosis generally considers two of three features after excluding other causes: ovulatory dysfunction, clinical or biochemical hyperandrogenism, and polycystic ovarian morphology. AMH may be used as an alternative to ultrasound for defining polycystic ovarian morphology in appropriate adult guideline contexts.",
+      "When both irregular cycles and hyperandrogenism are present in adults, ultrasound or AMH may not be required for diagnosis.",
+      "For adolescents, both ovulatory dysfunction and hyperandrogenism are required; ultrasound and AMH are not recommended for adolescent diagnosis.",
+      "Do not provide self-diagnosis through quizzes or symptom checkers.",
+      "Do not describe weight, diet, stress, laziness, trauma, pads, tampons or menstrual cups as established causes of PCOS.",
+      "Do not promise a cure or make deterministic claims about fertility.",
+      "Do not prescribe medication or provide medication doses.",
+      "Avoid weight stigma and one-size-fits-all diet or exercise advice.",
+      "Distinguish established evidence from uncertainty and emerging terminology."
+    ],
+    "terminology": "Use PCOS as the familiar public-facing term. If discussing PMOS as an emerging alternative term, explain its context and cite the relevant consensus; do not silently replace PCOS throughout the website.",
+    "review_requirements": [
+      "Verify every clinical statement against authoritative sources.",
+      "Have medical content reviewed by a qualified clinician before public launch.",
+      "Show source links and review dates.",
+      "Complete privacy and accessibility review before launch."
+    ]
+  },
+  "research_sources": [
+    {
+      "title": "WHO: Polycystic ovary syndrome",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/polycystic-ovary-syndrome",
+      "use": "Global context and general overview; verify current figures and publication date before use."
+    },
+    {
+      "title": "Indian multicentre PCOS prevalence study (2024)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11581580/",
+      "doi": "https://doi.org/10.1001/jamanetworkopen.2024.40583",
+      "use": "Indian prevalence estimates using different diagnostic criteria; explain criteria and sample context."
+    },
+    {
+      "title": "2023 International Evidence-based Guideline for PCOS",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/10477934/",
+      "use": "Clinical diagnostic and management guidance."
+    },
+    {
+      "title": "Health and Family Welfare Statistics in India 2023",
+      "url": "https://www.mohfw.gov.in/sites/default/files/Publication%20Health%20and%20Family%20Welfare%20Statistics%20in%20India%202023.pdf",
+      "use": "Indian public health context; do not imply it contains PCOS prevalence unless verified."
+    },
+    {
+      "title": "Menstrual cup systematic review (2019)",
+      "url": "https://doi.org/10.1016/S2468-2667(19)30111-2",
+      "use": "Menstrual product education; does not establish that menstrual products cause PCOS."
+    },
+    {
+      "title": "PCOS awareness study among young women in Chennai",
+      "url": "https://www.ijrcog.org/index.php/ijrcog/article/view/15381",
+      "use": "Verify methods, sample and findings before quoting."
+    },
+    {
+      "title": "PCOS awareness among medical students in Telangana",
+      "url": "https://www.ijcmph.com/index.php/ijcmph/article/view/15094",
+      "use": "Verify methods, sample and findings before quoting."
+    },
+    {
+      "title": "Systematic review and meta-analysis (2022)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9826643/",
+      "use": "Check exact outcomes and population before use."
+    }
+  ],
+  "dataset_audit": [
+    {
+      "file": "pcos_dataset.csv",
+      "rows": 1000,
+      "columns": [
+        "Age",
+        "BMI",
+        "Menstrual_Irregularity",
+        "Testosterone_Level(ng/dL)",
+        "Antral_Follicle_Count",
+        "PCOS_Diagnosis"
+      ],
+      "limitations": [
+        "Provenance and collection method are not established by the file alone.",
+        "Population, diagnostic definition and measurement protocol require verification.",
+        "Not suitable for Indian prevalence claims without validated provenance and sampling.",
+        "Not a diagnostic tool."
+      ]
+    },
+    {
+      "file": "Cleaned-Data.csv",
+      "rows": 173,
+      "columns": [
+        "Age",
+        "Weight_kg",
+        "Height_ft",
+        "Marital_Status",
+        "PCOS",
+        "Family_History_PCOS",
+        "Menstrual_Irregularity",
+        "Hormonal_Imbalance",
+        "Hyperandrogenism",
+        "Hirsutism",
+        "Mental_Health",
+        "Conception_Difficulty",
+        "Insulin_Resistance",
+        "Diabetes",
+        "Childhood_Trauma",
+        "Cardiovascular_Disease",
+        "diet-related fields",
+        "Vegetarian",
+        "Exercise_Frequency",
+        "Exercise_Type",
+        "Exercise_Duration",
+        "Sleep_Hours",
+        "Stress_Level",
+        "Smoking",
+        "Exercise_Benefit",
+        "PCOS_Medication"
+      ],
+      "limitations": [
+        "Contains compound, self-reported or ambiguous categories.",
+        "Medication responses include inconsistent free text.",
+        "Do not treat entries as verified diagnoses or infer causality.",
+        "Not suitable for prevalence claims without provenance and sampling validation."
+      ]
+    }
+  ],
+  "survey_context": {
+    "female_survey_sample_size_reported": 49,
+    "occupation_distribution_reported_percent": {
+      "working_professionals": 38.8,
+      "college_or_university_students": 32.7,
+      "school_students": 20.4,
+      "self_employed": 4.1,
+      "homemakers": 2.0,
+      "not_working": 2.0
+    },
+    "limitations": [
+      "Do not invent survey results not supplied in the research data.",
+      "The two CSV datasets do not contain gender or direct awareness questions.",
+      "Do not use these CSVs to claim male-versus-female awareness differences."
+    ]
+  },
+  "visual_design": {
+    "direction": "Warm, calm, contemporary, illustration-led educational design. Friendly and engaging without appearing childish or overly clinical.",
+    "assets_to_create_or_include": [
+      "Reproductive anatomy illustration",
+      "Hormone network illustration",
+      "Insulin and metabolism illustration",
+      "Menstrual cycle illustration",
+      "Learning pathway illustration"
+    ],
+    "rules": [
+      "Use clear labels and explanatory captions.",
+      "Do not use decorative imagery as a substitute for accurate anatomy.",
+      "Use consistent iconography and typographic hierarchy.",
+      "Ensure readable contrast, keyboard access, visible focus states and responsive layouts.",
+      "Provide meaningful alt text for informative images."
+    ]
+  },
+  "interaction_rules": [
+    "All navigation links and buttons must work.",
+    "Myth and quiz interactions must show an explanation after an answer.",
+    "Knowledge checks must not diagnose or estimate the likelihood of PCOS.",
+    "Age and pathway selections must be changeable.",
+    "Search must lead to relevant educational pages.",
+    "Appointment prompts may be copied or printed without storing health information.",
+    "Do not store sensitive health data or require account creation."
+  ],
+  "technical_requirements": {
+    "application": "Responsive multi-page web application",
+    "routing": "Implement all listed routes with direct URL loading and refresh support.",
+    "components": [
+      "Global header and footer",
+      "Responsive navigation",
+      "Breadcrumbs",
+      "Reusable content cards",
+      "Illustrated diagrams",
+      "Myth/fact interaction",
+      "Educational quiz",
+      "FAQ accordion",
+      "Search interface",
+      "Appointment preparation checklist"
+    ],
+    "quality": [
+      "No placeholder links or dead buttons.",
+      "No missing routes.",
+      "No lorem ipsum.",
+      "No fabricated statistics or citations.",
+      "No console errors at completion.",
+      "Test mobile, tablet and desktop layouts."
+    ]
+  },
+  "google_ai_studio_master_prompt": "Build a complete, polished, responsive, multi-page educational website called PCOS Unlocked using this JSON configuration and the accompanying project dossier as the source of truth. Do not build only a landing page or a static prototype. Implement every route listed in navigation.routes, all page content and all interactions. Explain PCOS in the Indian context using clear, age-appropriate, inclusive language. Provide optional age selection and three learning routes: Explore PCOS, Learn to Support (male allies), and shared learning. Age selection must never block content and must be changeable. Use an illustration-led visual system with labelled diagrams for reproductive anatomy, menstrual cycle, hormones and metabolism. Include educational PCOS pages, a women’s learning pathway, a male ally pathway, myth-versus-fact interactions, non-diagnostic knowledge checks, FAQs, support information, appointment preparation, sources, accessibility and privacy pages. Follow all clinical safety rules in content_safety. Never diagnose, prescribe, collect sensitive health information, invent statistics or claim causality unsupported by evidence. Clearly distinguish adult and adolescent diagnostic guidance. Cite authoritative sources on relevant pages and show source review dates. Implement responsive navigation, breadcrumbs, search, browser back/forward support, direct route loading, accessible keyboard interactions, visible focus states, meaningful alt text and a helpful 404 page. Every button, card link, quiz answer, accordion and navigation control must work. Use no placeholder content, dead links or lorem ipsum. Before finishing, run the app and test every route and interaction; list what was implemented, tested and what still requires clinician/source review. Do not claim production readiness until clinical, privacy, accessibility and functional QA are complete."
+}

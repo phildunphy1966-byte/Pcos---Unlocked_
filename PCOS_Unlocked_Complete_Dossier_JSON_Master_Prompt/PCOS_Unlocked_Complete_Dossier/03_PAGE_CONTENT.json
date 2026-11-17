@@ -1,0 +1,74 @@
+{
+  "home": {
+    "headline": "Your body deserves clear answers.",
+    "subhead": "Explore PCOS, hormones and reproductive health through clear explanations, interactive visuals and myth-busting guides.",
+    "primary_cta": "Explore PCOS",
+    "secondary_cta": "Choose your learning route"
+  },
+  "pathways": {
+    "female": {
+      "label": "Female learning path",
+      "focus": [
+        "body literacy",
+        "PCOS features",
+        "menstrual and reproductive health",
+        "diagnosis",
+        "management",
+        "wellbeing"
+      ]
+    },
+    "male_ally": {
+      "label": "Male ally path",
+      "focus": [
+        "understand PCOS",
+        "challenge misconceptions",
+        "understand possible impact",
+        "listen and support",
+        "respect privacy"
+      ]
+    }
+  },
+  "age_bands": [
+    "Under 18",
+    "18\u201321",
+    "22\u201325",
+    "26\u201330",
+    "31\u201335",
+    "Above 35"
+  ],
+  "medical_disclaimer": "PCOS Unlocked is an educational resource. It does not provide a diagnosis or replace advice from a qualified healthcare professional.",
+  "myths": [
+    {
+      "claim": "Everyone with PCOS has ovarian cysts.",
+      "answer": "False",
+      "explanation": "The name can be misleading. Not everyone with PCOS has this ultrasound feature, and ovarian appearance alone does not define the condition."
+    },
+    {
+      "claim": "Only people with larger bodies have PCOS.",
+      "answer": "False",
+      "explanation": "PCOS occurs across body sizes. Appearance cannot diagnose the condition."
+    },
+    {
+      "claim": "PCOS means someone cannot become pregnant.",
+      "answer": "False",
+      "explanation": "Fertility experiences vary. Many people with PCOS can conceive, sometimes with clinical support."
+    },
+    {
+      "claim": "Lifestyle alone cures PCOS.",
+      "answer": "False",
+      "explanation": "There is no universal cure. Management is individualised and may include several forms of support."
+    },
+    {
+      "claim": "Pads, tampons or menstrual cups cause PCOS.",
+      "answer": "Not supported by established evidence",
+      "explanation": "There is no established evidence that these menstrual products cause PCOS."
+    },
+    {
+      "claim": "An online quiz can diagnose PCOS.",
+      "answer": "False",
+      "explanation": "Symptoms can overlap with other conditions. Diagnosis requires qualified clinical assessment."
+    }
+  ],
+  "quiz_policy": "Educational feedback only; no diagnostic scoring, risk score or personalised medical advice.",
+  "content_rule": "All medical statements require traceable references and clinical review before public launch."
+}
